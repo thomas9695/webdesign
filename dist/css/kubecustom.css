@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300,300italic,600,600italic,700,700italic,800,800italic);
+
+.foto1 {
+    width: 200px;
+    height: 80px;
+}
+
+.kubelogo {
+    transition: width 2s linear 1s;
+}
+
+.foto3 {
+    width: 80px;
+    height: 80px;
+}
+
+.foto2 {
+    width: 80px;
+    height: 80px;
+}
+
+.tabs {
+    background-color: white;
+}
+
+.main {
+    background-color: white;
+}
+
+.body {
+    background-color: white;
+}
+
+#java {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+    -ms-animation: fadein 3s; /* Internet Explorer */
+    -o-animation: fadein 3s; /* Opera < 12.1 */
+    animation: fadein 3s;
+}
+
+
+#java2 {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+    -ms-animation: fadein 4s; /* Internet Explorer */
+    -o-animation: fadein 4s; /* Opera < 12.1 */
+    animation: fadein 4s;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+html {
+    background: white;
+    color: #222222;
+    font-family: 'Open Sans', Arial, Sans-serif;
+    font-size: 1em;
+}
+
+.demo {
+    background-color: #cccccc;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.demo-2 {
+    background-color: #bbbbbb;
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+
+.navbar-gray {
+    background: #cccccc;
+}.navbar-black {
+     background: #000000;
+ }.navbar-red {
+      background: #de2c3b;
+  }.example {
+       padding: 30px 50px;
+   }
+
+
+/* =Wrapper
+-----------------------------------------------------------------------------*/
+
+div.wrapper {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+    background: #fff;
+}
+
+div.wrapper div.inner-wrapper {
+    margin: 0 auto;
+    padding: 0 1.6em 0 1.6em;
+}
